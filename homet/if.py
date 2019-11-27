@@ -14,10 +14,10 @@ y=input('Введите 2 строку: ')
 #не сработает
 
 
-if x=1:print('1')
+if x == y:
+    print('1')
 elif len(x) > len(y):print('2')
-elif y='learn':
+elif y=='learn':
     if x!=y:print("3")
     else: continue
 else: print("0")
-
