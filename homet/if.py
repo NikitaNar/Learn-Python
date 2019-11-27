@@ -16,8 +16,9 @@ y=input('Введите 2 строку: ')
 
 if x == y:
     print('1')
-elif len(x) > len(y):print('2')
 elif y=='learn':
     if x!=y:print("3")
-    else: continue
+elif len(x) > len(y):
+    print('2')
+
 else: print("0")
