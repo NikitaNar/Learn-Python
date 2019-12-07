@@ -1,0 +1,10 @@
+telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "D:\project\homet\env\lib\site-packages\telegram\ext\dispatcher.py", line 372, in process_update
+    handler.handle_update(update, self, check, context)
+  File "D:\project\homet\env\lib\site-packages\telegram\ext\handler.py", line 120, in handle_update
+    return self.callback(dispatcher.bot, update, **optional_args)
+  File "bot.py", line 19, in time
+    update.message.reply_text(today)
+NameError: name 'today' is not defined
+telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
